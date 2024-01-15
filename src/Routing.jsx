@@ -6,7 +6,7 @@ import Profile from "./pages/Profile";
 export const Routing = () => {
   return (
     <Routes>
-      <Route path="/" element={<Dashboard />} />
+      <Route path="/my-projects" element={<Dashboard />} />
       <Route path="/profile" element={<Profile />} />
     </Routes>
   );

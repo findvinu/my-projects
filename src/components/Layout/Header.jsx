@@ -15,11 +15,15 @@ import {
 
 import MenuIcon from "@mui/icons-material/Menu";
 import { GitContext } from "../../context/fetchApiContextProvider";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import Logo from "../../assets/images/logo.png";
 
-const pages = ["Products", "Pricing", "Blog"];
+const pages = [
+  { linkName: "Dashboard", link: "/my-projects" },
+  { linkName: "Profile", link: "/profile" },
+];
 const settings = [
-  { linkName: "Dashboard", link: "/" },
+  { linkName: "Dashboard", link: "/my-projects" },
   { linkName: "Profile", link: "/profile" },
 ];
 
@@ -63,17 +67,23 @@ const Header = ({ drawerOpen }) => {
               textDecoration: "none",
             }}
           >
-            LOGO
+            <Link to={"/my-projects"}>
+              <Avatar src={Logo} alt="logo" />
+            </Link>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages?.map((page) => (
-              <Button
-                key={page}
-                sx={{ my: 2, color: "white", display: "block" }}
+              <NavLink
+                key={page.linkName}
+                to={page.link}
+                className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "active" : ""
+                }
+                sx={{ p: 2 }}
               >
-                {page}
-              </Button>
+                <Typography textAlign="center">{page.linkName}</Typography>
+              </NavLink>
             ))}
           </Box>
 
