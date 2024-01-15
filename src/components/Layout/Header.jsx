@@ -75,12 +75,12 @@ const Header = ({ drawerOpen }) => {
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages?.map((page) => (
               <NavLink
+                style={{ marginRight: "10px" }}
                 key={page.linkName}
                 to={page.link}
                 className={({ isActive, isPending }) =>
                   isPending ? "pending" : isActive ? "active" : ""
                 }
-                sx={{ p: 2 }}
               >
                 <Typography textAlign="center">{page.linkName}</Typography>
               </NavLink>

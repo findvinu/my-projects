@@ -23,9 +23,7 @@ function App() {
         drawerClose={drawerCloseHandler}
       />
       <Container maxWidth={false} sx={{ pt: 3 }}>
-        <Container maxWidth="md" sx={{ pt: 3 }}>
-          <Routing />
-        </Container>
+        <Routing />
       </Container>
     </>
   );
