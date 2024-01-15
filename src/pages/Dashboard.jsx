@@ -48,7 +48,7 @@ const cardsData = [
 const Dashboard = () => {
   return (
     <Container maxWidth="xl">
-      <Typography variant="h4" component="h4" mt={5}>
+      <Typography variant="h4" component="h4" mt={3}>
         Top Projects
       </Typography>
       <Grid container spacing={2} sx={{ mt: 2 }}>
