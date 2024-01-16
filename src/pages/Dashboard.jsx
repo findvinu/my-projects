@@ -53,7 +53,7 @@ const Dashboard = () => {
       </Typography>
       <Grid container spacing={2} sx={{ mt: 2 }}>
         {cardsData.map((cardData) => (
-          <Grid item xs={4}>
+          <Grid item xs={4} key={cardData.title}>
             <CardLayout
               title={cardData.title}
               image={cardData.image}
@@ -63,17 +63,6 @@ const Dashboard = () => {
           </Grid>
         ))}
       </Grid>
-      {/*   <Grid container spacing={2} sx={{ mt: 2 }}>
-        <Grid item xs={4}>
-          <CardLayout />
-        </Grid>
-        <Grid item xs={4}>
-          <CardLayout />
-        </Grid>
-        <Grid item xs={4}>
-          <CardLayout />
-        </Grid>
-      </Grid> */}
     </Container>
   );
 };

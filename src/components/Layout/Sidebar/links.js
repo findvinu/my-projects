@@ -1,5 +1,6 @@
 export const links = [
   {
+    id: 1,
     linkName: "React Projects",
     link: "",
     subLinks: [
@@ -50,6 +51,7 @@ export const links = [
     ],
   },
   {
+    id: 2,
     linkName: "Javascript Projects",
     link: "",
     /*  subLinks: [
@@ -60,6 +62,7 @@ export const links = [
       ], */
   },
   {
+    id: 3,
     linkName: "Typescript Projects",
     link: "",
     subLinks: [
@@ -70,6 +73,7 @@ export const links = [
     ],
   },
   {
+    id: 4,
     linkName: "Node Projects",
     link: "",
     subLinks: [
@@ -80,6 +84,7 @@ export const links = [
     ],
   },
   {
+    id: 5,
     linkName: "HTML Projects",
     link: "",
     subLinks: [
