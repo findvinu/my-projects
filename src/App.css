@@ -66,3 +66,17 @@ animation-timing-function: ease;
 .cardWrapper {
 padding-bottom: 20px;
 }
+
+ul li a{
+  color:#333;
+  text-decoration: none;
+}
+ul li a:hover{
+  text-decoration: underline;
+}
+
+.projectsLink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

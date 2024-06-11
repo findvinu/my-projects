@@ -5,8 +5,6 @@ import {
   CardMedia,
   Typography,
   CardActionArea,
-  CardActions,
-  Button,
 } from "@mui/material";
 import { NavLink } from "react-router-dom";
 

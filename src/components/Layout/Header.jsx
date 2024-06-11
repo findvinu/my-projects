@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import {
   IconButton,
   AppBar,
@@ -8,8 +8,6 @@ import {
   Menu,
   Container,
   Avatar,
-  Button,
-  Tooltip,
   MenuItem,
 } from "@mui/material";
 
@@ -17,9 +15,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { GitContext } from "../../context/fetchApiContextProvider";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../../assets/images/vinuBytes.png";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const pages = [
-  { linkName: "Dashboard", link: "/" },
+  { linkName: "Dashboard", link: "/my-projects/" },
   { linkName: "About Me", link: "/my-projects/profile" },
   // { linkName: "Projects", link:"" },
 ];
@@ -97,10 +96,11 @@ const Header = ({ drawerOpen }) => {
             ))}
             <NavLink
               to="/my-projects/#"
-              className="navLink"
+              className="navLink projectsLink"
               onClick={handleOpenUserMenu}
             >
               <Typography textAlign="center">Projects</Typography>
+              <ExpandMoreIcon size="small" />
             </NavLink>
 
             <Menu
