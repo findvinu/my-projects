@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/my-projects/static/css/main.abadb305.css",
+    "main.js": "/my-projects/static/js/main.9187a7bc.js",
+    "static/media/CurrencyConvertor.png": "/my-projects/static/media/CurrencyConvertor.3418f1c13bc9dbd1ad71.png",
+    "static/media/beauty-lyout.png": "/my-projects/static/media/beauty-lyout.f5e75f03529400a2feca.png",
+    "static/media/emailer2.png": "/my-projects/static/media/emailer2.9ffe0fc52bdbd8e4e654.png",
+    "static/media/movie-search-app.png": "/my-projects/static/media/movie-search-app.35c7da2729bd17221773.png",
+    "static/media/food-order-app.png": "/my-projects/static/media/food-order-app.942ac4e81b60bc19e245.png",
+    "static/media/TXT-Emailer.png": "/my-projects/static/media/TXT-Emailer.b2b71c651a0a084acf4c.png",
+    "static/media/shopping-cart.png": "/my-projects/static/media/shopping-cart.970153195e9edb13454e.png",
+    "static/media/quiz.png": "/my-projects/static/media/quiz.a168dd7fdac24361af85.png",
+    "static/media/typescript.png": "/my-projects/static/media/typescript.b9f38aa6ff8e804db245.png",
+    "static/media/HTML5.jpg": "/my-projects/static/media/HTML5.7b8e068b492606f8fe23.jpg",
+    "static/media/TXT-plan-layout.png": "/my-projects/static/media/TXT-plan-layout.017ab60a8ce9aee6bd78.png",
+    "static/media/fake-store-api.png": "/my-projects/static/media/fake-store-api.becfc760e72e5b62679d.png",
+    "static/media/my-pofo.png": "/my-projects/static/media/my-pofo.297d57f79051de1a6304.png",
+    "static/media/dukaan-app.png": "/my-projects/static/media/dukaan-app.13c6d692a236f0de0855.png",
+    "static/media/redux-toolkit-user-app.png": "/my-projects/static/media/redux-toolkit-user-app.ac1a10df2775e349f7ec.png",
+    "static/media/react-redux-mui-screen.png": "/my-projects/static/media/react-redux-mui-screen.187d3f88379f02ed09ff.png",
+    "static/media/cooking-food.png": "/my-projects/static/media/cooking-food.478f5f887d96cdb7a498.png",
+    "static/media/html_layout.png": "/my-projects/static/media/html_layout.1e57fdf276421288f736.png",
+    "static/media/vinuBytes.png": "/my-projects/static/media/vinuBytes.c4c87fab3802519e572e.png",
+    "static/media/js.jpg": "/my-projects/static/media/js.120ad3f34fe35997560d.jpg",
+    "static/media/app-login-firebase.png": "/my-projects/static/media/app-login-firebase.b8c3ced4def7852de369.png",
+    "static/media/movie-app.png": "/my-projects/static/media/movie-app.354c02ccd909e1648020.png",
+    "static/media/my-cart.png": "/my-projects/static/media/my-cart.aadf75510e15781fef32.png",
+    "static/media/bg.webp": "/my-projects/static/media/bg.bffdab3ef6e15a148476.webp",
+    "static/media/BMI-calculator.png": "/my-projects/static/media/BMI-calculator.04abaa61cd8b3dbaca79.png",
+    "static/media/guess-number.png": "/my-projects/static/media/guess-number.a2eb3a39b923ae2fdc71.png",
+    "static/media/project-mgmt.png": "/my-projects/static/media/project-mgmt.9dde2361a6137bab2467.png",
+    "static/media/react.jpg": "/my-projects/static/media/react.78ec12bae4d402a9c22b.jpg",
+    "static/media/Login.png": "/my-projects/static/media/Login.140931f953279d4cb091.png",
+    "static/media/todo.png": "/my-projects/static/media/todo.8d89829d16cbbe38d68e.png",
+    "index.html": "/my-projects/index.html",
+    "main.abadb305.css.map": "/my-projects/static/css/main.abadb305.css.map",
+    "main.9187a7bc.js.map": "/my-projects/static/js/main.9187a7bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abadb305.css",
+    "static/js/main.9187a7bc.js"
+  ]
+}
