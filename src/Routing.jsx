@@ -19,6 +19,7 @@ export const Routing = () => {
       <Route path="/my-projects/ts-projects" element={<TSProjects />} />
       <Route path="/my-projects/node-projects" element={<NodeProjects />} />
       <Route path="/my-projects/html-projects" element={<HtmlProjects />} />
+      <Route path="*" element={<div>Not Found Page</div>} />
     </Routes>
   );
 };
