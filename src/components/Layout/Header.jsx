@@ -71,7 +71,7 @@ const Header = ({ drawerOpen }) => {
               textDecoration: "none",
             }}
           >
-            <Link to={"/my-projects"}>
+            <Link to={"/my-projects/"}>
               <Avatar
                 src={Logo}
                 alt="logo"
@@ -85,10 +85,12 @@ const Header = ({ drawerOpen }) => {
               <NavLink
                 key={page.linkName}
                 to={page.link}
-                className={
-                  (({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "active" : "",
-                  "navLink")
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending navLink"
+                    : isActive
+                    ? "active navLink"
+                    : "navLink"
                 }
               >
                 <Typography textAlign="center">{page.linkName}</Typography>
