@@ -80,3 +80,13 @@ ul li a:hover{
   align-items: center;
   justify-content: center;
 }
+
+.not-found{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found img{
+  width: 90%;
+}

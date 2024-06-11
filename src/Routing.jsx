@@ -8,6 +8,7 @@ import JSProjects from "./pages/JSProjects";
 import TSProjects from "./pages/TSProjects";
 import NodeProjects from "./pages/NodeProjects";
 import HtmlProjects from "./pages/HtmlProjects";
+import NotFound from "./pages/NotFound";
 
 export const Routing = () => {
   return (
@@ -19,7 +20,7 @@ export const Routing = () => {
       <Route path="/my-projects/ts-projects" element={<TSProjects />} />
       <Route path="/my-projects/node-projects" element={<NodeProjects />} />
       <Route path="/my-projects/html-projects" element={<HtmlProjects />} />
-      <Route path="*" element={<div>Not Found Page</div>} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 };
