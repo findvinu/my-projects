@@ -26,6 +26,7 @@ const TSProjects = () => {
               image={cardData.image}
               description={cardData.description}
               link={cardData.link}
+              innerLink
             />
           </Grid>
         ))}

@@ -34,6 +34,7 @@ const JSProjects = () => {
               image={cardData.image}
               description={cardData.description}
               link={cardData.link}
+              innerLink
             />
           </Grid>
         ))}
