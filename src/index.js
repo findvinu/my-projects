@@ -10,7 +10,7 @@ import GitContextProvider from "./context/fetchApiContextProvider";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <Router basename="/">
+      <Router>
         <CssBaseline />
         <GitContextProvider>
           <App />
