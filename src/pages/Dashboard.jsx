@@ -13,35 +13,35 @@ const cardsData = [
     image: ReactImage,
     description:
       "React is a popular JavaScript library for building user interfaces, known for its declarative and component-based approach. React projects often leverage a virtual DOM to efficiently update and render UI components, providing a smooth and responsive user experience.",
-    link: "/my-projects/react-projects",
+    link: "/react-projects",
   },
   {
     title: "Javascript Project",
     image: JSImage,
     description:
       "JavaScript is a versatile programming language that powers dynamic and interactive web applications. Its versatility extends to server-side development with Node.js, making it a full-stack language.",
-    link: "/my-projects/js-projects",
+    link: "/js-projects",
   },
   {
     title: "Typescript Project",
     image: TSImage,
     description:
       "TypeScript is a statically-typed superset of JavaScript that adds optional static typing to the language. This enables developers to catch errors early in the development process and enhances code quality.",
-    link: "/my-projects/ts-projects",
+    link: "/ts-projects",
   },
   {
     title: "NodeJs Project",
     image: NodeJSImage,
     description:
       "Node.js is a server-side JavaScript runtime that allows developers to build scalable and high-performance applications. Leveraging the event-driven, non-blocking I/O model, Node.js is well-suited for real-time applications and APIs.",
-    link: "/my-projects/node-projects",
+    link: "/node-projects",
   },
   {
     title: "HTML Layout",
     image: HTMLImage,
     description:
       "HTML is a markup language for creating the structure of web pages. In its simplest form, an HTML document starts with <html> and includes a basic structure with a head (<head>) and a body (<body>).",
-    link: "/my-projects/html-projects",
+    link: "/html-projects",
   },
 ];
 const Dashboard = () => {

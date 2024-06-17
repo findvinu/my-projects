@@ -18,16 +18,16 @@ import Logo from "../../assets/images/vinuBytes.png";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const pages = [
-  { linkName: "Dashboard", link: "/my-projects/" },
-  { linkName: "About Me", link: "/my-projects/profile" },
+  { linkName: "Dashboard", link: "/" },
+  { linkName: "About Me", link: "/profile" },
   // { linkName: "Projects", link:"" },
 ];
 const settings = [
-  { linkName: "React JS", link: "/my-projects/react-projects" },
-  { linkName: "Javascript", link: "/my-projects/js-projects" },
-  { linkName: "Typescript", link: "/my-projects/ts-projects" },
-  { linkName: "Next JS", link: "/my-projects/node-projects" },
-  { linkName: "HTML", link: "/my-projects/html-projects" },
+  { linkName: "React JS", link: "/react-projects" },
+  { linkName: "Javascript", link: "/js-projects" },
+  { linkName: "Typescript", link: "/ts-projects" },
+  { linkName: "Next JS", link: "/node-projects" },
+  { linkName: "HTML", link: "/html-projects" },
 ];
 
 const Header = ({ drawerOpen }) => {
@@ -71,7 +71,7 @@ const Header = ({ drawerOpen }) => {
               textDecoration: "none",
             }}
           >
-            <Link to={"/my-projects/"}>
+            <Link to={"/"}>
               <Avatar
                 src={Logo}
                 alt="logo"
@@ -97,7 +97,7 @@ const Header = ({ drawerOpen }) => {
               </NavLink>
             ))}
             <NavLink
-              to="/my-projects/#"
+              to="#"
               className="navLink projectsLink"
               onClick={handleOpenUserMenu}
             >

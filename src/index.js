@@ -7,12 +7,11 @@ import { BrowserRouter } from "react-router-dom";
 import CssBaseline from "@mui/material/CssBaseline";
 import GitContextProvider from "./context/fetchApiContextProvider";
 
-const baseURL = process.env.REACT_APP_BASE_URL || "";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <BrowserRouter baseURL={baseURL}>
+      <BrowserRouter basename="/my-projects">
         <CssBaseline />
         <GitContextProvider>
           <App />
