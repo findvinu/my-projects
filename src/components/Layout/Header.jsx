@@ -96,14 +96,14 @@ const Header = ({ drawerOpen }) => {
                 <Typography textAlign="center">{page.linkName}</Typography>
               </NavLink>
             ))}
-            <NavLink
+            <Link
               to="#"
               className="navLink projectsLink"
               onClick={handleOpenUserMenu}
             >
               <Typography textAlign="center">Projects</Typography>
               <ExpandMoreIcon size="small" />
-            </NavLink>
+            </Link>
 
             <Menu
               sx={{ mt: "45px" }}
