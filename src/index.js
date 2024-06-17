@@ -3,20 +3,19 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import { theme } from "./theme.js";
 import { ThemeProvider } from "styled-components";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import CssBaseline from "@mui/material/CssBaseline";
 import GitContextProvider from "./context/fetchApiContextProvider";
-
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <BrowserRouter basename="/my-projects">
+      <Router basename="/">
         <CssBaseline />
         <GitContextProvider>
           <App />
         </GitContextProvider>
-      </BrowserRouter>
+      </Router>
     </ThemeProvider>
   </React.StrictMode>
 );

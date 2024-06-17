@@ -20,7 +20,6 @@ export const Routing = () => {
       <Route path="/node-projects" element={<NodeProjects />} />
       <Route path="/html-projects" element={<HtmlProjects />} />
       <Route path="/profile" element={<Profile />} />
-      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 };
