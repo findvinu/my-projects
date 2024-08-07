@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-projects/static/css/main.289d4270.css",
-    "main.js": "/my-projects/static/js/main.4905f8e1.js",
+    "main.css": "/my-projects/static/css/main.46a67493.css",
+    "main.js": "/my-projects/static/js/main.3aedce46.js",
     "static/media/CurrencyConvertor.png": "/my-projects/static/media/CurrencyConvertor.3418f1c13bc9dbd1ad71.png",
     "static/media/beauty-lyout.png": "/my-projects/static/media/beauty-lyout.f5e75f03529400a2feca.png",
     "static/media/emailer2.png": "/my-projects/static/media/emailer2.9ffe0fc52bdbd8e4e654.png",
@@ -18,6 +18,7 @@
     "static/media/my-pofo.png": "/my-projects/static/media/my-pofo.297d57f79051de1a6304.png",
     "static/media/dukaan-app.png": "/my-projects/static/media/dukaan-app.13c6d692a236f0de0855.png",
     "static/media/redux-toolkit-user-app.png": "/my-projects/static/media/redux-toolkit-user-app.ac1a10df2775e349f7ec.png",
+    "static/media/dashboad-assignment.png": "/my-projects/static/media/dashboad-assignment.25d15a44c4e2e14f5f09.png",
     "static/media/react-redux-mui-screen.png": "/my-projects/static/media/react-redux-mui-screen.187d3f88379f02ed09ff.png",
     "static/media/cooking-food.png": "/my-projects/static/media/cooking-food.478f5f887d96cdb7a498.png",
     "static/media/html_layout.png": "/my-projects/static/media/html_layout.1e57fdf276421288f736.png",
@@ -34,11 +35,11 @@
     "static/media/Login.png": "/my-projects/static/media/Login.140931f953279d4cb091.png",
     "static/media/todo.png": "/my-projects/static/media/todo.8d89829d16cbbe38d68e.png",
     "index.html": "/my-projects/index.html",
-    "main.289d4270.css.map": "/my-projects/static/css/main.289d4270.css.map",
-    "main.4905f8e1.js.map": "/my-projects/static/js/main.4905f8e1.js.map"
+    "main.46a67493.css.map": "/my-projects/static/css/main.46a67493.css.map",
+    "main.3aedce46.js.map": "/my-projects/static/js/main.3aedce46.js.map"
   },
   "entrypoints": [
-    "static/css/main.289d4270.css",
-    "static/js/main.4905f8e1.js"
+    "static/css/main.46a67493.css",
+    "static/js/main.3aedce46.js"
   ]
 }
