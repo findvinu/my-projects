@@ -63,9 +63,9 @@ animation-timing-function: ease;
 100% { transform: translateY(0); }
 }
 
-.cardWrapper {
+/* .cardWrapper {
 padding-bottom: 20px;
-}
+} */
 
 ul li a{
   color:#333;

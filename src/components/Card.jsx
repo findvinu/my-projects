@@ -6,9 +6,16 @@ import {
   Typography,
   CardActionArea,
 } from "@mui/material";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
-export const CardLayout = ({ title, image, description, link, innerLink }) => {
+export const CardLayout = ({
+  title,
+  image,
+  description,
+  link,
+  innerLink,
+  github,
+}) => {
   return (
     <Card className="cardWrapper">
       {innerLink ? (
@@ -26,9 +33,22 @@ export const CardLayout = ({ title, image, description, link, innerLink }) => {
               <Typography gutterBottom variant="h5" component="div">
                 {title}
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                style={{ marginBottom: "10px" }}
+              >
                 {description}
               </Typography>
+              {github && (
+                <Link
+                  className="link"
+                  to="https://github.com/findvinu/dashboad-assignment"
+                  target="_blank"
+                >
+                  https://github.com/findvinu/dashboad-assignment
+                </Link>
+              )}
             </CardContent>
           </CardActionArea>
         </a>
