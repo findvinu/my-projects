@@ -10,6 +10,7 @@ const cardsData = [
     description:
       "In this React app layout, decompose it into smaller UI components and employ built-in useEffect, useState, and useCallback hooks for managing state and side effects.",
     link: "https://findvinu.github.io/my-pofo/",
+    github: "https://github.com/findvinu/emailer2-html",
   },
 ];
 const NodeProjects = () => {
@@ -26,6 +27,7 @@ const NodeProjects = () => {
               image={cardData.image}
               description={cardData.description}
               link={cardData.link}
+              github={cardData.github}
               innerLink
             />
           </Grid>

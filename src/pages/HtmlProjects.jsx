@@ -14,6 +14,7 @@ const cardsData = [
     description:
       "Design a perfect HTML/CSS assignment layout with precision. Ensure the email template is responsive for all devices, including mobiles.",
     link: "https://htmlpreview.github.io/?https://github.com/findvinu/html_assignment/blob/main/index.html",
+    github: "https://github.com/findvinu/html_assignment",
   },
   {
     title: "TXT Basic Plan Layout",
@@ -21,6 +22,7 @@ const cardsData = [
     description:
       "Design the 'TXT Basic Plan' layout for Truck X Talent. Make the email template responsive for all devices, including mobiles.",
     link: "https://htmlpreview.github.io/?https://github.com/findvinu/txt_buy_now/blob/main/plan_basic.html",
+    github: "https://github.com/findvinu/txt_buy_now",
   },
   {
     title: "Beauty Landing Page Layout",
@@ -28,6 +30,7 @@ const cardsData = [
     description:
       "Craft a Mumbai-based beauty company landing page for .NET. Ensure email template responsiveness across all devices, including mobiles.",
     link: "https://htmlpreview.github.io/?https://github.com/findvinu/beauty_landing_page_layout/blob/main/index.html",
+    github: "https://github.com/findvinu/beauty_landing_page_layout",
   },
   {
     title: "Emailer-1",
@@ -35,6 +38,7 @@ const cardsData = [
     description:
       "Create a 640px-wide email template for Truck X Talent. Ensure responsiveness across all devices, including mobiles.",
     link: "https://htmlpreview.github.io/?https://github.com/findvinu/emailer1-html/blob/main/index.html",
+    github: "https://github.com/findvinu/emailer1-html",
   },
   {
     title: "Emailer-2",
@@ -42,6 +46,7 @@ const cardsData = [
     description:
       "Craft a 640px-wide email template for Truck X Talent, ensuring compatibility with Outlook, Gmail, and Yahoo. Also, ensure responsiveness across all devices, including mobiles.",
     link: "https://htmlpreview.github.io/?https://github.com/findvinu/emailer2-html/blob/main/emailer-16.html",
+    github: "https://github.com/findvinu/emailer2-html",
   },
 ];
 const HtmlProjects = () => {
@@ -58,6 +63,7 @@ const HtmlProjects = () => {
               image={cardData.image}
               description={cardData.description}
               link={cardData.link}
+              github={cardData.github}
               innerLink
             />
           </Grid>
