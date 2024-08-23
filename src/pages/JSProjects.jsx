@@ -3,8 +3,17 @@ import { Grid, Container, Typography } from "@mui/material";
 import { CardLayout } from "../components/Card";
 import BMICalculator from "../assets/images/BMI-calculator.png";
 import GuessNumber from "../assets/images/guess-number.png";
+import VeniaLayout from "../assets/images/venia_layout.png";
 
 const cardsData = [
+  {
+    title: "Venia Layout",
+    image: VeniaLayout,
+    description:
+      "Venia Store is a responsive e-commerce web app using the FakeStore API, featuring filtering, sorting, lazy loading, and search functionality. It is built with HTML5, CSS3, and JavaScript, designed for optimal performance and UX across all devices.",
+    link: "https://findvinu.github.io/Venia-store/",
+    github: "https://github.com/findvinu/Venia-store",
+  },
   {
     title: "BMI-calculator",
     image: BMICalculator,

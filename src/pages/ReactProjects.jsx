@@ -18,8 +18,17 @@ import appLoginFirebase from "../assets/images/app-login-firebase.png";
 import ReactReduxMUIScreen from "../assets/images/react-redux-mui-screen.png";
 import ReduxToolkitUserApp from "../assets/images/redux-toolkit-user-app.png";
 import DashboardLayout from "../assets/images/dashboad-assignment.png";
+import NewsLayout from "../assets/images/news-layout.png";
 
 const cardsData = [
+  {
+    title: "News Application",
+    image: NewsLayout,
+    description:
+      "A React-based news application that displays the latest headlines using the GNews API, featuring infinite scrolling and date range filtering. The app is responsive, with support for browsing current news articles only due to API limitations.",
+    link: "https://findvinu.github.io/news-react-app/",
+    github: "https://github.com/findvinu/news-react-app",
+  },
   {
     title: "Dashboad Layout",
     image: DashboardLayout,
