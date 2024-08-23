@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/my-projects/static/css/main.46a67493.css",
-    "main.js": "/my-projects/static/js/main.90678fd4.js",
+    "main.js": "/my-projects/static/js/main.a5786f29.js",
     "static/media/CurrencyConvertor.png": "/my-projects/static/media/CurrencyConvertor.3418f1c13bc9dbd1ad71.png",
     "static/media/beauty-lyout.png": "/my-projects/static/media/beauty-lyout.f5e75f03529400a2feca.png",
     "static/media/emailer2.png": "/my-projects/static/media/emailer2.9ffe0fc52bdbd8e4e654.png",
     "static/media/movie-search-app.png": "/my-projects/static/media/movie-search-app.35c7da2729bd17221773.png",
     "static/media/food-order-app.png": "/my-projects/static/media/food-order-app.942ac4e81b60bc19e245.png",
+    "static/media/venia_layout.png": "/my-projects/static/media/venia_layout.5a8eaff09a88f81bb122.png",
     "static/media/TXT-Emailer.png": "/my-projects/static/media/TXT-Emailer.b2b71c651a0a084acf4c.png",
     "static/media/shopping-cart.png": "/my-projects/static/media/shopping-cart.970153195e9edb13454e.png",
     "static/media/quiz.png": "/my-projects/static/media/quiz.a168dd7fdac24361af85.png",
     "static/media/typescript.png": "/my-projects/static/media/typescript.b9f38aa6ff8e804db245.png",
     "static/media/HTML5.jpg": "/my-projects/static/media/HTML5.7b8e068b492606f8fe23.jpg",
     "static/media/TXT-plan-layout.png": "/my-projects/static/media/TXT-plan-layout.017ab60a8ce9aee6bd78.png",
+    "static/media/news-layout.png": "/my-projects/static/media/news-layout.517e47497200d49e96a5.png",
     "static/media/fake-store-api.png": "/my-projects/static/media/fake-store-api.becfc760e72e5b62679d.png",
     "static/media/404-page-not-found.png": "/my-projects/static/media/404-page-not-found.19a01faaddcba524a829.png",
     "static/media/my-pofo.png": "/my-projects/static/media/my-pofo.297d57f79051de1a6304.png",
@@ -36,10 +38,10 @@
     "static/media/todo.png": "/my-projects/static/media/todo.8d89829d16cbbe38d68e.png",
     "index.html": "/my-projects/index.html",
     "main.46a67493.css.map": "/my-projects/static/css/main.46a67493.css.map",
-    "main.90678fd4.js.map": "/my-projects/static/js/main.90678fd4.js.map"
+    "main.a5786f29.js.map": "/my-projects/static/js/main.a5786f29.js.map"
   },
   "entrypoints": [
     "static/css/main.46a67493.css",
-    "static/js/main.90678fd4.js"
+    "static/js/main.a5786f29.js"
   ]
 }
