@@ -19,7 +19,7 @@ const cardsData = [
     image: BMICalculator,
     description:
       "Develop a BMI calculator that allows users to input their height in centimeters and weight in kilograms. The calculator will then compute the BMI (Body Mass Index) based on these inputs and display the result to the user.",
-    link: "https://htmlpreview.github.io/?https://github.com/findvinu/BMI-calculator/blob/main/index.html",
+    link: "https://findvinu.github.io/BMI-calculator/",
     github: "https://github.com/findvinu/BMI-calculator",
   },
   {
@@ -27,7 +27,7 @@ const cardsData = [
     image: GuessNumber,
     description:
       "Develop a 'Guess the Number' game where the user enters a random number, and the game checks whether it matches the target number. It then updates the status accordingly, indicating whether the guess was too high, too low, or correct.",
-    link: "https://htmlpreview.github.io/?https://github.com/findvinu/JS-Guess-the-Number/blob/main/index.html",
+    link: "https://findvinu.github.io/JS-Guess-the-Number/",
     github: "https://github.com/findvinu/JS-Guess-the-Number",
   },
 ];
