@@ -6,6 +6,7 @@ import JSImage from "../assets/images/js.jpg";
 import TSImage from "../assets/images/typescript.png";
 import NodeJSImage from "../assets/images/node.jpeg";
 import HTMLImage from "../assets/images/HTML5.jpg";
+import Wordpress from "../assets/images/WordPress-Logo.png";
 
 const cardsData = [
   {
@@ -42,6 +43,13 @@ const cardsData = [
     description:
       "HTML is a markup language for creating the structure of web pages. In its simplest form, an HTML document starts with <html> and includes a basic structure with a head (<head>) and a body (<body>).",
     link: "/html-projects",
+  },
+  {
+    title: "Wordpress Website",
+    image: Wordpress,
+    description:
+      "Customized WordPress theme, fixed UI bugs, and maintained CSS for a responsive and visually appealing user interface.",
+    link: "/wordpress-projects",
   },
 ];
 const Dashboard = () => {
