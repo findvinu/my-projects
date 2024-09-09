@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/my-projects/static/css/main.46a67493.css",
-    "main.js": "/my-projects/static/js/main.a45cf78f.js",
+    "main.js": "/my-projects/static/js/main.fde16573.js",
     "static/media/CurrencyConvertor.png": "/my-projects/static/media/CurrencyConvertor.3418f1c13bc9dbd1ad71.png",
+    "static/media/txt.png": "/my-projects/static/media/txt.af29f09247aad5022b2d.png",
     "static/media/beauty-lyout.png": "/my-projects/static/media/beauty-lyout.f5e75f03529400a2feca.png",
     "static/media/emailer2.png": "/my-projects/static/media/emailer2.9ffe0fc52bdbd8e4e654.png",
     "static/media/movie-search-app.png": "/my-projects/static/media/movie-search-app.35c7da2729bd17221773.png",
@@ -16,6 +17,8 @@
     "static/media/TXT-plan-layout.png": "/my-projects/static/media/TXT-plan-layout.017ab60a8ce9aee6bd78.png",
     "static/media/news-layout.png": "/my-projects/static/media/news-layout.517e47497200d49e96a5.png",
     "static/media/fake-store-api.png": "/my-projects/static/media/fake-store-api.becfc760e72e5b62679d.png",
+    "static/media/fabhr.png": "/my-projects/static/media/fabhr.eea1bade66ba2eb52194.png",
+    "static/media/computronics.png": "/my-projects/static/media/computronics.295865fff87f1acc7b9e.png",
     "static/media/404-page-not-found.png": "/my-projects/static/media/404-page-not-found.19a01faaddcba524a829.png",
     "static/media/my-pofo.png": "/my-projects/static/media/my-pofo.297d57f79051de1a6304.png",
     "static/media/dukaan-app.png": "/my-projects/static/media/dukaan-app.13c6d692a236f0de0855.png",
@@ -24,6 +27,7 @@
     "static/media/react-redux-mui-screen.png": "/my-projects/static/media/react-redux-mui-screen.187d3f88379f02ed09ff.png",
     "static/media/cooking-food.png": "/my-projects/static/media/cooking-food.478f5f887d96cdb7a498.png",
     "static/media/html_layout.png": "/my-projects/static/media/html_layout.1e57fdf276421288f736.png",
+    "static/media/WordPress-Logo.png": "/my-projects/static/media/WordPress-Logo.9c3464a362df8cf1163c.png",
     "static/media/vinuBytes.png": "/my-projects/static/media/vinuBytes.c4c87fab3802519e572e.png",
     "static/media/js.jpg": "/my-projects/static/media/js.120ad3f34fe35997560d.jpg",
     "static/media/app-login-firebase.png": "/my-projects/static/media/app-login-firebase.b8c3ced4def7852de369.png",
@@ -38,10 +42,10 @@
     "static/media/todo.png": "/my-projects/static/media/todo.8d89829d16cbbe38d68e.png",
     "index.html": "/my-projects/index.html",
     "main.46a67493.css.map": "/my-projects/static/css/main.46a67493.css.map",
-    "main.a45cf78f.js.map": "/my-projects/static/js/main.a45cf78f.js.map"
+    "main.fde16573.js.map": "/my-projects/static/js/main.fde16573.js.map"
   },
   "entrypoints": [
     "static/css/main.46a67493.css",
-    "static/js/main.a45cf78f.js"
+    "static/js/main.fde16573.js"
   ]
 }
