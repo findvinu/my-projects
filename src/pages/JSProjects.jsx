@@ -4,6 +4,7 @@ import { CardLayout } from "../components/Card";
 import BMICalculator from "../assets/images/BMI-calculator.png";
 import GuessNumber from "../assets/images/guess-number.png";
 import VeniaLayout from "../assets/images/venia_layout.png";
+import DOM from "../assets/images/dom-manipulate.png";
 
 const cardsData = [
   {
@@ -12,6 +13,14 @@ const cardsData = [
     description:
       "Venia Store is a responsive e-commerce web app using the FakeStore API, featuring filtering, sorting, lazy loading, and search functionality. It is built with HTML5, CSS3, and JavaScript, designed for optimal performance and UX across all devices.",
     link: "https://findvinu.github.io/Venia-store/",
+    github: "https://github.com/findvinu/Venia-store",
+  },
+  {
+    title: "DOM Manipulate",
+    image: DOM,
+    description:
+      "This code dynamically fetches and displays a list of products, providing functionalities to edit or delete each product. It uses asynchronous fetch requests to populate data, and allows updates directly within the list through interactive buttons for editing and deleting items.",
+    link: "https://github.com/findvinu/dom-manipulate",
     github: "https://github.com/findvinu/Venia-store",
   },
   {
